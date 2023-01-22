@@ -1,0 +1,5 @@
+Lambda ifadeleri oncelikle islevsel bir arabirimin, yani yalnızca tek bir yöntemle bir arabirimin satir ici uygulamasini tanimlamak icin kullanilir.
+Ornekte, MathOperation arabiriminin islem yontemini tanimlamak icin çesitli turlerde lambda ifadeleri kullandik.
+Ardindan Selamlama Hizmetinin sayMessage uygulamasini tanımladik.
+
+Lambda ifadesi, anonim sınıf ihtiyacini ortadan kaldirir ve Java'ya cok basit ama guclu bir islevsel programlama yetenegi verir.
