@@ -1,0 +1,3 @@
+Java 8 ile, mevcut Rhino'nun yerini alacak çok daha gelişmiş bir javascript motoru olan Nashorn tanıtıldı.
+Nashorn, kodu doğrudan bellekte derlediği ve bayt kodunu JVM'ye ilettiği için 2 ila 10 kat daha iyi performans sağlar.
+Nashorn, performansı artırmak için Java 7'de tanıtılan çağırma dinamikleri özelliğini kullanır
