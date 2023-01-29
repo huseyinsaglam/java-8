@@ -1,0 +1,11 @@
+- Java 8 ile, eski tarih-saat API'sinin aşağıdaki dezavantajlarını karşılamak için yeni bir Tarih-Saat API'si kullanıma sunulmuştur.
+  1-  Not thread safe (Guvenli olmayan Thread) − java.util.Date iş parçacığı için güvenli değildir,
+      bu nedenle geliştiriciler tarihi kullanırken eşzamanlılık sorunuyla uğraşmak zorundadır. Yeni tarih-zaman API'si sabittir ve ayarlayıcı yöntemleri yoktur.
+  2- Poor design (Zayıf tasarım) - Varsayılan Tarih 1900'den başlar, ay 1'den başlar ve gün 0'dan başlar, dolayısıyla tekdüzelik yoktur.
+     Eski API, tarih işlemleri için daha az doğrudan yöntemlere sahipti. Yeni API, bu tür işlemler için çok sayıda yardımcı yöntem sağlar.
+  3- Difficult time zone handling (Zor saat dilimi yönetimi) - Geliştiriciler, saat dilimi sorunlarıyla başa çıkmak için çok fazla kod yazmak zorunda kaldı.
+     Yeni API, etki alanına özgü tasarım göz önünde bulundurularak geliştirilmiştir.
+
+- Java 8, java.time paketi altında yeni bir tarih-saat API'si sunar. Java.time paketinde tanıtılan bazı önemli sınıflar aşağıdadır.
+    1- Local - Karmaşık saat dilimi işleme olmadan basitleştirilmiş tarih-zaman API'si.
+    2- Zoned - Çeşitli saat dilimleriyle başa çıkmak için özel tarih-zaman API'si.
