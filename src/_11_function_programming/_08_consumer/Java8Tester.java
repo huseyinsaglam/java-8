@@ -8,6 +8,7 @@ public class Java8Tester {
 
     public static void main(String[] args) {
 
+        // Consumer<T> 		void accept(T t)
         Consumer<String> consumer = x -> System.out.println(x);
         consumer.accept("Selam");
 
